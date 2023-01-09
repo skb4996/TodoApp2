@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(to right bottom, #EF4035, #EF4035);
+  width: 100%;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #B31B1B;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.button-add {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #A2998B;
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+}
+
+.button-complete,
+.button-not-completed,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-not-completed {
+  color: red;
+  margin-right: 10px;
+}
+
+.button-complete {
+  color: #4B7B2B;
+  margin-right: 10px;
+}
+
+.button-edit {
+  color: #006699;
+  margin-right: 10px;
+}
+
+.button-delete {
+  color: #222222
+}
+
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: purple;
+  opacity: 0.6;
+}
+
+.list-strike,
+.list {
+  width: 220px;
+  background-color: #b31B1B;
+  border: none;
+  color: #222222;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.list-strike {
+  text-decoration: line-through;
+}
+
+input:focus,
+button:focus {
+  outline:none;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  }
+
+  .modal-content {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    }
+
+    .modal-header .close {
+      font-size: 24px;
+      line-height: 1;
+      color: #000;
+      opacity: 0.2;
+      }
+      
+      .modal-header .close:hover,
+      .modal-header .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+      opacity: 0.5;
+      }
