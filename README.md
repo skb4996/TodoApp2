@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Todo App
 
 This is a simple Todo App created using React. It allows users to create, delete, and mark tasks as complete. The tasks are stored using a provided REST API.
