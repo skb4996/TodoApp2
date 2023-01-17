@@ -7,6 +7,8 @@ To use the app, clone the repository and install the dependencies.
 ### `git clone https://github.com/[YOUR_USERNAME]/todo-app.git`
 ### `cd todo-app`
 ### `npm install`
+You may need to install axios, use the following command:
+### `npm install axios`
 
 Next, start the app by running:
 ### `npm start`
